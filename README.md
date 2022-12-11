@@ -8,6 +8,12 @@ I designed this against Google Chrome, though it may work with other browsers.
 
 This is similar to [jcubic/chat-gpt](https://github.com/jcubic/chat-gpt), which lets you download the transcript as HTML. The main difference is that copyGPT converts the transcript to Markdown and copies it to your clipboard.
 
+## Features
+
+- Simple, transparent JS bookmarklet for copying chatGPT transcripts as Markdown.
+  - Handles code blocks.
+- Support for both desktop and mobile Chrome.
+
 ## Installation
 
 - Copy the JavaScript from [copyGPT-markdown.js](copyGPT-markdown.js).
@@ -22,18 +28,22 @@ This is similar to [jcubic/chat-gpt](https://github.com/jcubic/chat-gpt), which 
 
 ## Usage
 
-Use chatGPT in the usual way. When you have a transript you'd like to copy:
+Use chatGPT in the usual way. When you have a transript you'd like to copy on desktop or mobile Chrome:
 - Stay on the chatGPT tab.
-- Enter `chatGPT` in the Chrome address bar.
-- Select the `chatGPT` suggestion.
+- Enter `copyGPT` in the Chrome address bar.
+- Select the `copyGPT` suggestion.
 - Done! The transcript is copied to your clipboard. Paste it in your favourite note-taking tool.
 
 ## Demo
 
-Work in progress.
+This demonstrates both installation and usage:
+
+https://user-images.githubusercontent.com/56461/206936469-3285a548-1296-459b-812f-32753e7e7e7b.mov
+
+
 
 ## Contributing.
 
 Pull requests and issues welcome!
 
-Note: as far as I can tell, mobile Chrome has a limit of 1023 characters on the URL field. To maintain compatibility with mobile Chrome, change requests which cause the bookmarklet to exceed that limit will be rejected.
+Note: as far as I can tell, mobile Chrome has a limit of 5000 characters on the URL field. To maintain compatibility with mobile Chrome, change requests which cause the bookmarklet to exceed this limit will be rejected.
