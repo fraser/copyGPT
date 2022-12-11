@@ -14,6 +14,10 @@ This is similar to [jcubic/chat-gpt](https://github.com/jcubic/chat-gpt), which 
   - Handles code blocks.
 - Support for both desktop and mobile Chrome.
 
+## Known Issues
+
+- Fragile: This relies on the current DOM structure of chatGPT. Changes to the structure may break this bookmarklet. Updates will be reflected but will require manual reinstallation (i.e., updating the URL field of the bookmark with the new JS).
+
 ## Installation
 
 - Copy the JavaScript from [copyGPT-markdown.js](copyGPT-markdown.js).
@@ -39,8 +43,6 @@ Use chatGPT in the usual way. When you have a transript you'd like to copy on de
 This demonstrates both installation and usage:
 
 https://user-images.githubusercontent.com/56461/206936469-3285a548-1296-459b-812f-32753e7e7e7b.mov
-
-
 
 ## Contributing.
 
