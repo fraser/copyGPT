@@ -29,13 +29,14 @@ This is similar to [jcubic/chat-gpt](https://github.com/jcubic/chat-gpt), which 
   - Otherwise: follow the relevant Android, iPhone, or iPad [instructions](https://support.google.com/chrome/answer/188842) to:
     - Visit any site on mobile and create a new bookmark.
     - Edit the bookmark to change the name to copyGPT and paste the JavaScript into the URL field.
+    - (As far as I can tell, manually creating a bookmark isn't possible on mobile Chrome. This is a workaround.)
 
 ## Usage
 
 Use chatGPT in the usual way. When you have a transript you'd like to copy on desktop or mobile Chrome:
 - Stay on the chatGPT tab.
 - Enter `copyGPT` in the Chrome address bar.
-- Select the `copyGPT` suggestion.
+- Select the `copyGPT` suggestion. This executes the JavaScript against the chatGPT page.
 - Done! The transcript is copied to your clipboard. Paste it in your favourite note-taking tool.
 
 ## Demo
