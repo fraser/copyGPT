@@ -7,6 +7,8 @@ javascript:(function() {
     }  else if (x.classList.contains('prose')) {
       var c = x.cloneNode(true);
       c.querySelectorAll('button').forEach((b,i) => b.remove());
+      c.querySelectorAll('ol li').forEach((l,i) => l.innerHTML = i + '. ' + l.innerHTML + '\n');      
+      c.querySelectorAll('ul li').forEach((l,i) => l.innerHTML = '- ' + l.innerHTML + '\n');
       c.querySelectorAll('pre').forEach((p,i) => p.innerHTML = '\n\n```\n' + p.innerHTML + '\n```\n\n');
       transcript += "\n\n### ChatGPT:\n\n" + c.innerText;
     }});
