@@ -33,7 +33,7 @@ This is similar to [jcubic/chat-gpt](https://github.com/jcubic/chat-gpt), which 
 
 ## Usage
 
-Use chatGPT in the usual way. When you have a transript you'd like to copy on desktop or mobile Chrome:
+Use chatGPT in the usual way. When you have a transcript you'd like to copy on desktop or mobile Chrome:
 - Stay on the chatGPT tab.
 - Enter `copyGPT` in the Chrome address bar.
 - Select the `copyGPT` suggestion. This executes the JavaScript against the chatGPT page.
