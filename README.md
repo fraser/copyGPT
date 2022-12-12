@@ -44,7 +44,7 @@ This demonstrates both installation and usage:
 
 https://user-images.githubusercontent.com/56461/206936469-3285a548-1296-459b-812f-32753e7e7e7b.mov
 
-## Contributing.
+## Contributing
 
 Pull requests and issues welcome!
 
