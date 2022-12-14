@@ -1,8 +1,8 @@
 # copyGPT
 
-This is a small JavaScript Chrome bookmarklet for copying chatGPT transcripts to your clipboard with some light Markdown formatting. It works on both desktop and mobile Chrome.
+This is a small JavaScript Chrome bookmarklet for copying ChatGPT transcripts to your clipboard with some light Markdown formatting. It works on both desktop and mobile Chrome.
 
-[chatGPT](https://chat.openai.com/) is an incredible demonstration of a large language model. But, as of Dec 11, 2022, it makes copying transcripts really hard, especially on mobile. This simple bookmarklet provides a workaround until chatGPT introduces a "copy transcript" feature.
+[ChatGPT](https://chat.openai.com/) is an incredible demonstration of a large language model. But, as of Dec 11, 2022, it makes copying transcripts really hard, especially on mobile. This simple bookmarklet provides a workaround until ChatGPT introduces a "copy transcript" feature.
 
 I designed this against Google Chrome, though it may work with other browsers.
 
@@ -10,13 +10,13 @@ This is similar to [jcubic/chat-gpt](https://github.com/jcubic/chat-gpt), which 
 
 ## Features
 
-- Simple, transparent JS bookmarklet for copying chatGPT transcripts as Markdown.
+- Simple, transparent JS bookmarklet for copying ChatGPT transcripts as Markdown.
   - Handles code blocks.
 - Support for both desktop and mobile Chrome.
 
 ## Known Issues
 
-- Fragile: This relies on the current DOM structure of chatGPT. Changes to the structure may break this bookmarklet. Updates will be reflected but will require manual reinstallation (i.e., updating the URL field of the bookmark with the new JS).
+- Fragile: This relies on the current DOM structure of ChatGPT. Changes to the structure may break this bookmarklet. Updates will be reflected but will require manual reinstallation (i.e., updating the URL field of the bookmark with the new JS).
 
 ## Installation
 
@@ -33,10 +33,10 @@ This is similar to [jcubic/chat-gpt](https://github.com/jcubic/chat-gpt), which 
 
 ## Usage
 
-Use chatGPT in the usual way. When you have a transcript you'd like to copy on desktop or mobile Chrome:
-- Stay on the chatGPT tab.
+Use ChatGPT in the usual way. When you have a transcript you'd like to copy on desktop or mobile Chrome:
+- Stay on the ChatGPT tab.
 - Enter `copyGPT` in the Chrome address bar.
-- Select the `copyGPT` suggestion. This executes the JavaScript against the chatGPT page.
+- Select the `copyGPT` suggestion. This executes the JavaScript against the ChatGPT page.
 - Done! The transcript is copied to your clipboard. Paste it in your favourite note-taking tool.
 
 ## Demo
